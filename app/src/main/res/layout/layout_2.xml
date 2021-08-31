@@ -59,18 +59,19 @@
         android:id="@+id/view_bar1"
         android:layout_above="@+id/view_bar2"
         />
+
     <TextView
         android:id="@+id/tv_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
-        android:text="Name : Lloyd Dcosta"
         android:layout_marginStart="10dp"
         android:drawableEnd="@drawable/ic_name_1"
         android:drawablePadding="8dp"
-        android:textSize="24sp"
         android:gravity="center"
-        android:textColor="#FF0000" />
+        android:text="Name : Lloyd Dcosta"
+        android:textColor="#981111"
+        android:textSize="24sp" />
     <TextView
         android:layout_below="@+id/tv_name"
         android:layout_width="wrap_content"
@@ -80,7 +81,7 @@
         android:layout_marginStart="10dp"
         android:textSize="24sp"
         android:gravity="center"
-        android:textColor="#FF0000" />
+        android:textColor="#981111" />
     <View
         android:background="@drawable/blue_circle"
         android:layout_marginBottom="65dp"
